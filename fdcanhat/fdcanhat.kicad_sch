@@ -1,0 +1,251 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4375c315-c696-43df-ab5b-868bd3f1287b")
+	(paper "A4")
+	(title_block
+		(date "2026-01-07")
+		(rev "1.0")
+		(company "Hoppen")
+	)
+	(lib_symbols)
+	(sheet
+		(at 69.85 134.62)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14b40177-62f6-4e1c-9bfe-b60b01e8f711")
+		(property "Sheetname" "Misc"
+			(at 69.85 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "misc.kicad_sch"
+			(at 69.85 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fdcanhat"
+				(path "/4375c315-c696-43df-ab5b-868bd3f1287b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 113.03)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "62df980a-c264-4c67-968f-e32163c54c0c")
+		(property "Sheetname" "Power Generation"
+			(at 114.3 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_generation.kicad_sch"
+			(at 114.3 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fdcanhat"
+				(path "/4375c315-c696-43df-ab5b-868bd3f1287b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 107.95)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "941260c8-26ec-48be-94c9-c4722689d865")
+		(property "Sheetname" "Power Input"
+			(at 172.72 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_input.kicad_sch"
+			(at 172.72 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fdcanhat"
+				(path "/4375c315-c696-43df-ab5b-868bd3f1287b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 88.9)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ef2477f-4ecd-4de0-812c-fbfbadc75927")
+		(property "Sheetname" "FDCAN"
+			(at 106.68 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fdcan.kicad_sch"
+			(at 106.68 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fdcanhat"
+				(path "/4375c315-c696-43df-ab5b-868bd3f1287b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 74.93)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e95a9e7c-d35f-4310-bd0b-e8c341bced43")
+		(property "Sheetname" "Indicators"
+			(at 157.48 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "indicators.kicad_sch"
+			(at 157.48 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fdcanhat"
+				(path "/4375c315-c696-43df-ab5b-868bd3f1287b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "TitleBlockTemplate.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WAGC+UXAEbhZyDwWDfQMUntebkNpF2wELcVW1rXhcUjcXcnNxYWh/GWq10AWABhAFa72I3/
+				eRbxP/ZI/CHQzZP2eEG5Ez3/8bCQ0Wt26MFr8vGGheyi7alb/smfAAAESNJ7OS+F5bEy/gu6JySt
+				zvi77KODCIBAQaOUYnXWHvEts5cIgEA5MnnA7rsjQo363C9Joqw2ZaBq1tPzvEkxQOBH/KGd1S4x
+				aVGr/+TvfTaxrPbMUKf8jfc7Jz1nHzP+PuzZ0xp9OPTaw7/fHvoGRxLOXVv9o4si/mrXBkc/YD0p
+				7c/dl1bcfy7C+VIpeFtgWAnePWT1d2LGn85OdhfOXhiX1MWAIfb6ULeN5UrOaZrVEnodWjFpxbJh
+				OLvxOBiNTaIaZFfWk9I5FRei65zZVRErm2E4PFaDwWyqQS/8O0fOGZX9R/8CgYJWJ207yWyZv5kD
+				hrMcWygJ2U1+OVuBbBjryD6CbumVajRRE7XWTEsgsIodqgKjiDqxSjMVS8kurDsVxoViaaDGjhRx
+				g1LtQtCuc87LUhgVO9ke4X18N+z+duKaNNOwEUuAmaDhTKUUmhopSFLIMAdwRIbkqDpHbK8MkkGZ
+				QZ4RAF7OKHoP+YjoXj/S8kRJcKHQx5PxAtfYRTtdzbpc0LdXKSsePBGD7PEc9jFf35CYkqQjRJSl
+				bqOiyJUDHLSV81TIdksoDediigtDsuNXTJ5X6Bbxgqn5PCH2+2MkUO6KNRgoWwN6GVSmY1rZxy8j
+				cV2ZXtC3Zco6wpi0NW2lVbCxttCCFh+bxT591zHhVRowMXDnIO6g0eAfioJlpf2pCLyoI4nygRgU
+				GSqEnXkfgujLl+S5ieWTSI52lfhwhO+AwIA0rzOl7COACDmVofcNkBcm6GXGhG/nRQlZpPGf5E3m
+				0PDlxKHXye7stI4tHDPLgQJZ5tGjOiDQxpidiBcJUQ8hVBx7bdCv/ObNztpGLsD0RQHhqH2X/BJR
+				P3SrTWzf6NrQhxZ1d0bc6LKaJKxR2IN74p1e9IjX+OhV|
+			)
+			(checksum "0AB5AB5C882C3E45E133D8BB8E89CDD9")
+		)
+	)
+)
