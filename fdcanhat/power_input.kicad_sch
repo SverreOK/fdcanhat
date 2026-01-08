@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ba7c34a3-6c03-4568-91aa-918d14d5ee6f")
+	(uuid "da6210c2-22ab-47d5-a52a-1d0a977b0942")
 	(paper "A4")
 	(title_block
 		(title "Power Input")
@@ -1540,6 +1540,28 @@
 		)
 		(uuid "ccafd788-cb05-4c24-80fb-9536b1a75615")
 	)
+	(text_box "DESIGN:\nOutput ~2.3V @ 25.2V\nOutput ~0.8V @ 8.4V"
+		(exclude_from_sim no)
+		(at 247.65 97.79 0)
+		(size 20.32 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3048)
+			(type solid)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "21833801-c3dd-4c12-883e-8a43e54364d5")
+	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 99.06 19.05 0)
@@ -1621,6 +1643,12 @@
 		(uuid "3b087e02-88ff-4fb3-ba29-a3e0cdc10061")
 	)
 	(junction
+		(at 237.49 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52e3c583-b531-43be-85cf-e135dd5cdccb")
+	)
+	(junction
 		(at 146.05 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1673,6 +1701,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abf856cc-f3d5-4818-9ca7-ab10c1e9f4b9")
+	)
+	(junction
+		(at 237.49 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baf309af-8562-4d90-b7bf-009a55bc551c")
 	)
 	(junction
 		(at 229.87 114.3)
@@ -1806,6 +1840,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 93.98) (xy 250.19 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b5e05a-d2b7-4357-9892-e5b230ab0c28")
+	)
+	(wire
+		(pts
 			(xy 151.13 96.52) (xy 151.13 106.68)
 		)
 		(stroke
@@ -1853,6 +1897,16 @@
 			(type default)
 		)
 		(uuid "3ef88367-0410-42d5-9682-dc96e4086aed")
+	)
+	(wire
+		(pts
+			(xy 237.49 105.41) (xy 237.49 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e50b67f-ca27-48da-82de-17ccc4e20a4b")
 	)
 	(wire
 		(pts
@@ -1933,6 +1987,16 @@
 			(type default)
 		)
 		(uuid "69be6094-b811-4395-963f-90b05830e614")
+	)
+	(wire
+		(pts
+			(xy 237.49 91.44) (xy 237.49 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce62694-7e22-424e-8add-d969359b5ea1")
 	)
 	(wire
 		(pts
@@ -2246,6 +2310,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 83.82) (xy 250.19 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35e24c4-e81b-4b86-a864-2c102983030e")
+	)
+	(wire
+		(pts
 			(xy 58.42 54.61) (xy 58.42 83.82)
 		)
 		(stroke
@@ -2266,7 +2340,17 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 83.82) (xy 240.03 83.82)
+			(xy 237.49 93.98) (xy 237.49 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93846b1-36a3-4270-ba47-47b7a28fda0a")
+	)
+	(wire
+		(pts
+			(xy 234.95 83.82) (xy 237.49 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2345,9 +2429,20 @@
 		)
 		(uuid "480ad9f2-b04a-4f86-9672-967c112fa2f1")
 	)
+	(hierarchical_label "+BAT_PROT_VMON"
+		(shape output)
+		(at 250.19 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89942b38-8dad-432b-a556-4999137d2d5e")
+	)
 	(hierarchical_label "+BAT_PROT"
 		(shape output)
-		(at 240.03 83.82 0)
+		(at 250.19 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2554,6 +2649,76 @@
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/941260c8-26ec-48be-94c9-c4722689d865"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 237.49 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f635a58-ad55-42b5-8806-e2e8b7ef0804")
+		(property "Reference" "R21"
+			(at 240.03 86.9949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 240.03 88.9 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 239.268 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84307abd-28c9-4643-97bb-a695d1a9a4c8")
+		)
+		(pin "2"
+			(uuid "71b0d460-8463-45dd-8964-94679ad89ee7")
+		)
+		(instances
+			(project "fdcanhat"
+				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/941260c8-26ec-48be-94c9-c4722689d865"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3735,6 +3900,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 237.49 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c316b3a3-04a2-4a14-a889-82ee9cd1d0b7")
+		(property "Reference" "#PWR073"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89963f81-0f62-464b-91ab-1c026f7ecc95")
+		)
+		(instances
+			(project "fdcanhat"
+				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/941260c8-26ec-48be-94c9-c4722689d865"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 217.17 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4203,6 +4435,76 @@
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/941260c8-26ec-48be-94c9-c4722689d865"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 237.49 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f146dc1d-7735-4bd7-b579-11eecfc48a60")
+		(property "Reference" "R22"
+			(at 240.03 99.6949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 240.03 101.6 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 239.268 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f3f2109-a74b-4c95-876c-fa619b81b65c")
+		)
+		(pin "2"
+			(uuid "8947002f-1386-478d-b993-6b060a2dea09")
+		)
+		(instances
+			(project "fdcanhat"
+				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/941260c8-26ec-48be-94c9-c4722689d865"
+					(reference "R22")
 					(unit 1)
 				)
 			)

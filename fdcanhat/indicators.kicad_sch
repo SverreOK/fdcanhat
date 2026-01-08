@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "8c00299f-b2d3-44bc-8525-8676ba0babeb")
+	(uuid "1569552a-7306-49e0-9b9b-96026a8609b5")
 	(paper "A4")
 	(title_block
 		(title "Indicators")
@@ -1421,7 +1421,7 @@
 	)
 	(text "BUZZER"
 		(exclude_from_sim no)
-		(at 111.76 39.37 0)
+		(at 74.93 39.37 0)
 		(effects
 			(font
 				(face "KiCad Font")
