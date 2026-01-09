@@ -268,7 +268,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MCP2518FD-xQBB"
+		(property "Value" "MCP2518FDT"
 			(at -3.81 13.97 0)
 			(effects
 				(font
@@ -277,7 +277,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-14-1EP_3x4.5mm_P0.65mm_EP1.65x4.25mm"
+		(property "Footprint" "0_transceivers:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at -49.53 40.64 0)
 			(effects
 				(font
@@ -299,6 +299,15 @@
 		)
 		(property "Description" "CAN FD Controller with SPI Interface, up to 8 Mbps, Vdd 2.7..5.5V,  functional safety ready, VDFN-14"
 			(at 0 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C626758"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

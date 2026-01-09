@@ -1253,6 +1253,12 @@
 		(uuid "70d7cafb-e38c-4f7f-a91e-606ef4aa75e1")
 	)
 	(junction
+		(at 137.16 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78e77389-92fe-4cee-899b-dad0f58616d4")
+	)
+	(junction
 		(at 166.37 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1299,12 +1305,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7458f05-cbf6-447d-a2b6-1a445f05eb23")
-	)
-	(junction
-		(at 130.81 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5ed4f1f-c203-42bd-a16c-92a4b1385bd5")
 	)
 	(junction
 		(at 133.35 133.35)
@@ -1354,7 +1354,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 73.66) (xy 129.54 73.66)
+			(xy 125.73 73.66) (xy 133.35 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1434,7 +1434,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 91.44 95.25)
+			(xy 88.9 81.28) (xy 88.9 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1454,7 +1454,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 73.66) (xy 129.54 77.47)
+			(xy 133.35 73.66) (xy 133.35 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1504,7 +1504,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 60.96) (xy 130.81 60.96)
+			(xy 125.73 60.96) (xy 137.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1531,16 +1531,6 @@
 			(type default)
 		)
 		(uuid "4186074b-36c6-476d-bc0e-241c6ec58b74")
-	)
-	(wire
-		(pts
-			(xy 130.81 53.34) (xy 144.78 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d96845d-d613-4e76-81aa-e89cf20a82c8")
 	)
 	(wire
 		(pts
@@ -1571,6 +1561,16 @@
 			(type default)
 		)
 		(uuid "65120db6-7a2b-4f44-bb02-b5a60ab5ba70")
+	)
+	(wire
+		(pts
+			(xy 137.16 53.34) (xy 144.78 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6796706b-35de-482b-a559-660a0404d422")
 	)
 	(wire
 		(pts
@@ -1774,7 +1774,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 69.85) (xy 91.44 73.66)
+			(xy 88.9 69.85) (xy 88.9 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1784,7 +1784,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 69.85) (xy 100.33 69.85)
+			(xy 88.9 69.85) (xy 100.33 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1924,7 +1924,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 53.34) (xy 130.81 53.34)
+			(xy 125.73 53.34) (xy 137.16 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1944,7 +1944,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 93.98) (xy 129.54 95.25)
+			(xy 133.35 93.98) (xy 133.35 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1984,7 +1984,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 85.09) (xy 129.54 86.36)
+			(xy 133.35 85.09) (xy 133.35 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2031,6 +2031,56 @@
 			(type default)
 		)
 		(uuid "fb6ed407-489d-4ef3-ae32-9e86d0a3ad12")
+	)
+	(label "BUCK_FB"
+		(at 127 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03326628-4c30-4d6f-966d-d48511f233c3")
+	)
+	(label "BUCK_CLK"
+		(at 99.06 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b32aba3-1c6d-41c8-ad17-dfb082a763dc")
+	)
+	(label "BUCK_COMP"
+		(at 127 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5afefb60-6660-43cc-8ca3-107b80c0d624")
+	)
+	(label "BUCK_BST"
+		(at 127 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "688deded-0d90-4d56-acab-4609147cfab3")
+	)
+	(label "BUCK_SW"
+		(at 127 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff4ba231-23c0-4e5b-8251-19ff2f5e47db")
 	)
 	(hierarchical_label "+5V_VMON"
 		(shape output)
@@ -2086,7 +2136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04f7a483-96fc-4fea-81af-e6204cee3b32")
-		(property "Reference" "C22"
+		(property "Reference" "C10"
 			(at 158.75 59.0549 0)
 			(effects
 				(font
@@ -2095,7 +2145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47p 50V X7R"
+		(property "Value" "47p 50V C0G"
 			(at 158.75 60.96 0)
 			(effects
 				(font
@@ -2104,7 +2154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
 			(at 155.9052 63.5 0)
 			(effects
 				(font
@@ -2131,6 +2181,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1567"
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1948fe74-29a2-4130-b061-c22c74c22470")
 		)
@@ -2140,77 +2199,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 200.66 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0def1994-e0cd-4913-ab17-48ed25948874")
-		(property "Reference" "C25"
-			(at 204.47 59.0549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u 50V X7R"
-			(at 204.47 60.96 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.6252 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 200.66 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d0e63661-f22a-4c34-a84e-6cfc92a6f66b")
-		)
-		(pin "1"
-			(uuid "c8e85e55-a621-49cc-beb0-ff23f49dd9af")
-		)
-		(instances
-			(project "fdcanhat"
-				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "C25")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2218,7 +2207,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 77.47 180)
+		(at 88.9 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2226,8 +2215,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11e2b2b8-9368-47ac-bbd6-0989a6c5e1ba")
-		(property "Reference" "R6"
-			(at 93.98 76.8349 0)
+		(property "Reference" "R7"
+			(at 91.44 76.8349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2236,7 +2225,7 @@
 			)
 		)
 		(property "Value" "200K"
-			(at 93.98 78.74 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2244,8 +2233,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 93.218 77.47 90)
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
+			(at 90.678 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 77.47 0)
+			(at 88.9 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,7 +2252,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 91.44 77.47 0)
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25764"
+			(at 88.9 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2278,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2288,7 +2286,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 81.28 180)
+		(at 133.35 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2297,7 +2295,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d72a59c-90c9-4b69-b0a8-ccc867f597a8")
 		(property "Reference" "R8"
-			(at 132.08 80.6449 0)
+			(at 135.89 80.6449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +2304,7 @@
 			)
 		)
 		(property "Value" "15k8"
-			(at 132.08 82.55 0)
+			(at 135.89 82.55 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2314,8 +2312,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 131.318 81.28 90)
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
+			(at 135.128 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,7 +2322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 81.28 0)
+			(at 133.35 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2331,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 81.28 0)
+			(at 133.35 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26956"
+			(at 133.35 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "271c089e-5a44-46eb-bd0f-9f45be4befac")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR035"
 			(at 182.88 157.48 0)
 			(effects
 				(font
@@ -2417,7 +2424,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR040")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2433,7 +2440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ac8ba6f-a714-4e67-8dd4-5ab78d479699")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR033"
 			(at 147.32 157.48 0)
 			(effects
 				(font
@@ -2484,7 +2491,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR038")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2500,7 +2507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32a9b183-6ff4-4b12-9be8-0e6e324de961")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR030"
 			(at 190.5 134.62 0)
 			(effects
 				(font
@@ -2550,7 +2557,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR043")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2566,7 +2573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "356cdeb1-7c1d-40ed-99eb-f5361d739511")
-		(property "Reference" "C27"
+		(property "Reference" "C16"
 			(at 123.19 139.0649 0)
 			(effects
 				(font
@@ -2575,7 +2582,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 50V X7R"
+		(property "Value" "10u 50V X5R"
 			(at 123.19 140.97 0)
 			(effects
 				(font
@@ -2584,7 +2591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
 			(at 120.3452 143.51 0)
 			(effects
 				(font
@@ -2611,6 +2618,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C440198"
+			(at 119.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3c856c22-87ee-419e-93ff-5b224f887efb")
 		)
@@ -2620,7 +2636,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "C27")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2636,7 +2652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36882cea-7b1e-4741-9482-61626a9cb893")
-		(property "Reference" "C29"
+		(property "Reference" "C17"
 			(at 170.18 139.0649 0)
 			(effects
 				(font
@@ -2645,7 +2661,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 50V X7R"
+		(property "Value" "10u 50V X5R"
 			(at 170.18 140.97 0)
 			(effects
 				(font
@@ -2654,7 +2670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
 			(at 167.3352 143.51 0)
 			(effects
 				(font
@@ -2681,6 +2697,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C440198"
+			(at 166.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "727d5c1d-0b9f-4a79-b06f-5fe42aff7405")
 		)
@@ -2690,7 +2715,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "C29")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -2698,7 +2723,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 95.25 0)
+		(at 88.9 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2706,8 +2731,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44253ad3-e9a6-4444-96bd-232336e496ae")
-		(property "Reference" "#PWR031"
-			(at 91.44 101.6 0)
+		(property "Reference" "#PWR023"
+			(at 88.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +2741,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 100.33 0)
+			(at 88.9 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +2750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 95.25 0)
+			(at 88.9 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,7 +2759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 95.25 0)
+			(at 88.9 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2768,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 95.25 0)
+			(at 88.9 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +2782,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR031")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2765,16 +2790,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 217.17 59.69 0)
+		(at 200.66 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6c1a141f-106c-4661-bf8d-ecba1cdb57ef")
-		(property "Reference" "C26"
-			(at 220.98 59.0549 0)
+		(uuid "6c6f38a7-4ae9-482a-a69e-d8c0ed8c836f")
+		(property "Reference" "C12"
+			(at 204.47 59.0549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2782,8 +2807,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 50V X7R"
-			(at 220.98 60.96 0)
+		(property "Value" "22u 25V X5R"
+			(at 204.47 60.96 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2791,8 +2816,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 218.1352 63.5 0)
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
+			(at 201.6252 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,7 +2826,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 59.69 0)
+			(at 200.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2810,7 +2835,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 217.17 59.69 0)
+			(at 200.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 200.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,15 +2853,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c776beb7-20b8-4b54-9d8d-d61602579f33")
+			(uuid "d9a9ec13-02ab-4dd6-98a6-2f02d3e4aee3")
 		)
 		(pin "1"
-			(uuid "0dc36ed4-c89f-4bf8-855f-2ffdcbb6e021")
+			(uuid "c612dec7-a130-449c-9dbd-b0fb738a7a9a")
 		)
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "C26")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2843,7 +2877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "743366ec-832f-4484-a8a5-8eb8bc08f517")
-		(property "Reference" "R23"
+		(property "Reference" "R4"
 			(at 238.76 56.5149 0)
 			(effects
 				(font
@@ -2861,7 +2895,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
 			(at 237.998 57.15 90)
 			(effects
 				(font
@@ -2888,6 +2922,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25779"
+			(at 236.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67c3be8d-0525-4d37-b771-0853ec2a5e0c")
 		)
@@ -2897,7 +2940,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "R23")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2913,7 +2956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "765edbf3-f029-45bc-b2c2-41fe0e3ad019")
-		(property "Reference" "C28"
+		(property "Reference" "C15"
 			(at 106.68 139.0649 0)
 			(effects
 				(font
@@ -2922,7 +2965,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 50V X7R"
+		(property "Value" "10u 50V X5R"
 			(at 106.68 140.97 0)
 			(effects
 				(font
@@ -2931,7 +2974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
 			(at 103.8352 143.51 0)
 			(effects
 				(font
@@ -2958,6 +3001,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C440198"
+			(at 102.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3f7a24ea-1dd4-46fc-af24-9a9cb9c2b951")
 		)
@@ -2967,7 +3019,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "C28")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2983,7 +3035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77c6a960-c459-4f40-b527-93a10a3c5ced")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR034"
 			(at 166.37 157.48 0)
 			(effects
 				(font
@@ -3034,7 +3086,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR039")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3050,7 +3102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80cdbc73-c703-41b5-bad2-dc00f2a28c4f")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 172.72 59.0549 0)
 			(effects
 				(font
@@ -3059,7 +3111,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "119K"
+		(property "Value" "53k6"
 			(at 172.72 60.96 0)
 			(effects
 				(font
@@ -3068,7 +3120,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
 			(at 171.958 59.69 90)
 			(effects
 				(font
@@ -3095,6 +3147,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C53398"
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e605b340-2b26-4223-a273-18f8e8821ed7")
 		)
@@ -3104,7 +3165,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3112,7 +3173,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.81 57.15 0)
+		(at 137.16 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3120,8 +3181,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92bd7300-8ea0-41f1-aaf4-a54f8d636eed")
-		(property "Reference" "C21"
-			(at 134.62 56.5149 0)
+		(property "Reference" "C8"
+			(at 140.97 56.5149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +3191,7 @@
 			)
 		)
 		(property "Value" "100n 50V X7R"
-			(at 134.62 58.42 0)
+			(at 140.97 58.42 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3138,8 +3199,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 131.7752 60.96 0)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 138.1252 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +3209,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 57.15 0)
+			(at 137.16 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,7 +3218,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.81 57.15 0)
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 137.16 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +3244,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "C21")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3190,7 +3260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96506efd-a055-4571-8787-fc17209e37a6")
-		(property "Reference" "C20"
+		(property "Reference" "C9"
 			(at 81.28 59.0549 0)
 			(effects
 				(font
@@ -3199,7 +3269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 50V X7R"
+		(property "Value" "10u 50V X5R"
 			(at 81.28 60.96 0)
 			(effects
 				(font
@@ -3208,7 +3278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
 			(at 78.4352 63.5 0)
 			(effects
 				(font
@@ -3235,6 +3305,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C440198"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d2583ffb-506a-4e88-a9e7-f7e2868533b8")
 		)
@@ -3244,7 +3323,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "C20")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3260,7 +3339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a093c595-f1f1-4f88-ac72-8864e0a869d4")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR024"
 			(at 110.49 101.6 0)
 			(effects
 				(font
@@ -3311,7 +3390,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR030")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3327,7 +3406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afbdd28d-434e-4ce4-b66d-248ceedb8c7d")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR028"
 			(at 236.22 101.6 0)
 			(effects
 				(font
@@ -3378,7 +3457,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR074")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3386,7 +3465,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 95.25 0)
+		(at 133.35 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3394,8 +3473,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b21c68d9-d5c7-4a31-9c18-53703fb972ce")
-		(property "Reference" "#PWR033"
-			(at 129.54 101.6 0)
+		(property "Reference" "#PWR025"
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3483,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 100.33 0)
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 95.25 0)
+			(at 133.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 95.25 0)
+			(at 133.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3510,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 95.25 0)
+			(at 133.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +3524,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR033")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3461,7 +3540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b82d61dd-3c3e-430e-808d-366a54eebba3")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR029"
 			(at 102.87 134.62 0)
 			(effects
 				(font
@@ -3511,7 +3590,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR037")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3527,7 +3606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b93f3b3c-502d-4a20-9143-6ac8c61261ea")
-		(property "Reference" "C30"
+		(property "Reference" "C18"
 			(at 186.69 139.0649 0)
 			(effects
 				(font
@@ -3536,7 +3615,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 50V X7R"
+		(property "Value" "10u 50V X5R"
 			(at 186.69 140.97 0)
 			(effects
 				(font
@@ -3545,7 +3624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
 			(at 183.8452 143.51 0)
 			(effects
 				(font
@@ -3572,6 +3651,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C440198"
+			(at 182.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d49e877b-6e74-4a69-b238-4edf918fc937")
 		)
@@ -3581,7 +3669,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "C30")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3597,7 +3685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbebc4fa-eb82-4257-84ea-9544b3f10028")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR031"
 			(at 102.87 157.48 0)
 			(effects
 				(font
@@ -3648,7 +3736,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR042")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3664,7 +3752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdc14674-f69e-4013-a903-47b82d93ebde")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR021"
 			(at 224.79 54.61 0)
 			(effects
 				(font
@@ -3714,7 +3802,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR036")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3739,7 +3827,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22k1"
+		(property "Value" "10k"
 			(at 172.72 82.55 0)
 			(effects
 				(font
@@ -3748,7 +3836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
 			(at 171.958 81.28 90)
 			(effects
 				(font
@@ -3767,6 +3855,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 170.18 81.28 0)
 			(effects
 				(font
@@ -3800,7 +3897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c638c41b-9ad0-441d-b7ed-dceccccca00b")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 147.32 125.73 0)
 			(effects
 				(font
@@ -3870,7 +3967,7 @@
 		(instances
 			(project ""
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3886,7 +3983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca35f898-e24f-42ff-ac66-5262568579f9")
-		(property "Reference" "C24"
+		(property "Reference" "C11"
 			(at 187.96 59.0549 0)
 			(effects
 				(font
@@ -3895,7 +3992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 50V X7R"
+		(property "Value" "22u 25V X5R"
 			(at 187.96 60.96 0)
 			(effects
 				(font
@@ -3904,7 +4001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
 			(at 185.1152 63.5 0)
 			(effects
 				(font
@@ -3931,6 +4028,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C45783"
+			(at 184.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40a84064-64ad-418d-b1bb-fefef37cee85")
 		)
@@ -3940,7 +4046,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "C24")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3956,7 +4062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc7e924e-2801-4631-a067-7bb2c29668af")
-		(property "Reference" "R24"
+		(property "Reference" "R6"
 			(at 238.76 71.7549 0)
 			(effects
 				(font
@@ -3974,7 +4080,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
 			(at 237.998 72.39 90)
 			(effects
 				(font
@@ -4001,6 +4107,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83c17f50-bb3c-4862-aead-967e4b64cc2f")
 		)
@@ -4010,7 +4125,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "R24")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4026,7 +4141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0a60ff4-e10c-4424-b83f-6b3989763978")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR027"
 			(at 184.15 101.6 0)
 			(effects
 				(font
@@ -4077,7 +4192,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR035")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4093,7 +4208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e63d90dc-3450-48a4-90d8-8833f2ad12e4")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR032"
 			(at 119.38 157.48 0)
 			(effects
 				(font
@@ -4144,7 +4259,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR041")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4160,7 +4275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eec8d779-f114-4371-9897-29f03b14c5d8")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR026"
 			(at 170.18 101.6 0)
 			(effects
 				(font
@@ -4211,7 +4326,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR034")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4227,7 +4342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f310fec2-f48d-49eb-b45d-c47d23bf413a")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR022"
 			(at 77.47 101.6 0)
 			(effects
 				(font
@@ -4278,7 +4393,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "#PWR032")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4286,7 +4401,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 129.54 90.17 0)
+		(at 133.35 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4294,8 +4409,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5d810ba-2105-40aa-9196-bd040d1e96f9")
-		(property "Reference" "C23"
-			(at 133.35 89.5349 0)
+		(property "Reference" "C14"
+			(at 137.16 89.5349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4419,7 @@
 			)
 		)
 		(property "Value" "2n7 50V X7R"
-			(at 133.35 91.44 0)
+			(at 137.16 91.44 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4312,8 +4427,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 130.5052 93.98 0)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 134.3152 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +4437,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 90.17 0)
+			(at 133.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4446,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 129.54 90.17 0)
+			(at 133.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106251"
+			(at 133.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4348,7 +4472,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "C23")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -4372,7 +4496,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 uH @ 9A"
+		(property "Value" "3.3 uH @ 8.5A"
 			(at 148.59 50.8 90)
 			(effects
 				(font
@@ -4380,7 +4504,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_inductors:IND-SMD_L11.6-W10.1"
 			(at 148.59 53.34 0)
 			(effects
 				(font
@@ -4400,6 +4524,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C167219"
+			(at 148.59 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8e9359c-00bc-4195-a37b-0ee24c66eaf4")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 113.03 45.72 0)
 			(effects
 				(font
@@ -4514,7 +4647,86 @@
 		(instances
 			(project ""
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
-					(reference "U5")
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 217.17 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f97fa4f5-056b-4908-992d-9c0b1a5828b3")
+		(property "Reference" "C13"
+			(at 220.98 59.0549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u 25V X5R"
+			(at 220.98 60.96 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
+			(at 218.1352 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 217.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c0aaf51-9d1c-4cad-a5cf-fab25e71e6a8")
+		)
+		(pin "1"
+			(uuid "51ffa0fd-ad46-4736-8d61-9ab0535bb8b3")
+		)
+		(instances
+			(project "fdcanhat"
+				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/62df980a-c264-4c67-968f-e32163c54c0c"
+					(reference "C13")
 					(unit 1)
 				)
 			)

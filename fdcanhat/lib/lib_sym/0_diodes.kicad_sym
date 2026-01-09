@@ -27,7 +27,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "0_indicators:LED-SMD_4P-L2.0-W2.0-BR"
+		(property "Footprint" "0_diodes:LED-SMD_4P-L2.0-W2.0-BR"
 			(at -24.13 26.67 0)
 			(effects
 				(font

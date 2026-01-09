@@ -1158,7 +1158,7 @@
 		)
 		(uuid "fd56c529-533a-48e9-8aac-9b55cc58681f")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "MON_SCL"
 		(shape input)
 		(at 66.04 86.36 180)
 		(effects
@@ -1169,7 +1169,7 @@
 		)
 		(uuid "754cbebc-a48c-45fe-bfdf-243f635bd82f")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "MON_SDA"
 		(shape bidirectional)
 		(at 66.04 83.82 180)
 		(effects
@@ -1222,7 +1222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34c17e11-e03b-4308-91e8-4cd177ce12e5")
-		(property "Reference" "C40"
+		(property "Reference" "C42"
 			(at 110.49 58.42 0)
 			(effects
 				(font
@@ -1285,7 +1285,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/fa34ba4e-0a0d-40f6-bbb7-8a98a9ddd90d"
-					(reference "C40")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -1301,7 +1301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44cdbb03-4e44-45dc-9870-c1e33381c2a9")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR079"
 			(at 121.92 58.42 0)
 			(effects
 				(font
@@ -1351,7 +1351,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/fa34ba4e-0a0d-40f6-bbb7-8a98a9ddd90d"
-					(reference "#PWR059")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -1375,7 +1375,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u 50V X7R"
+		(property "Value" "1u 50V X5R"
 			(at 97.79 63.5 0)
 			(effects
 				(font
@@ -1384,7 +1384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+		(property "Footprint" "0_capacitor_smd:C_0603_1608Metric"
 			(at 98.7552 64.77 0)
 			(effects
 				(font
@@ -1411,7 +1411,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C15849"
 			(at 97.79 60.96 0)
 			(effects
 				(font
@@ -1445,7 +1445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69411972-d2bc-4552-b8b3-49420fd7fe25")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR082"
 			(at 142.24 104.14 0)
 			(effects
 				(font
@@ -1496,7 +1496,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/fa34ba4e-0a0d-40f6-bbb7-8a98a9ddd90d"
-					(reference "#PWR058")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -1512,7 +1512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a38e8362-d874-45d2-8290-ab294e0c07c4")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR081"
 			(at 110.49 74.93 0)
 			(effects
 				(font
@@ -1563,7 +1563,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/fa34ba4e-0a0d-40f6-bbb7-8a98a9ddd90d"
-					(reference "#PWR060")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -1579,7 +1579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab67744c-4fa2-4aa1-a195-2ad06bee751d")
-		(property "Reference" "R15"
+		(property "Reference" "R21"
 			(at 88.9 74.2949 0)
 			(effects
 				(font
@@ -1642,7 +1642,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/fa34ba4e-0a0d-40f6-bbb7-8a98a9ddd90d"
-					(reference "R15")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -1658,7 +1658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcfe0211-c253-4740-95d1-bc528316c594")
-		(property "Reference" "R14"
+		(property "Reference" "R20"
 			(at 78.74 74.2949 0)
 			(effects
 				(font
@@ -1721,7 +1721,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/fa34ba4e-0a0d-40f6-bbb7-8a98a9ddd90d"
-					(reference "R14")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -1737,7 +1737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1028a0c-ad52-4867-8c23-361fad86a026")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 142.24 63.5 0)
 			(effects
 				(font
@@ -1822,7 +1822,7 @@
 		(instances
 			(project ""
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/fa34ba4e-0a0d-40f6-bbb7-8a98a9ddd90d"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -1838,7 +1838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f10a5a67-2c7c-42b2-9d87-0b5a5d328cd1")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR080"
 			(at 97.79 74.93 0)
 			(effects
 				(font
@@ -1889,7 +1889,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/fa34ba4e-0a0d-40f6-bbb7-8a98a9ddd90d"
-					(reference "#PWR061")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -1905,7 +1905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa6a39ed-a3bd-429e-a867-4458bae57091")
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 119.38 71.7549 0)
 			(effects
 				(font
@@ -1968,7 +1968,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/fa34ba4e-0a0d-40f6-bbb7-8a98a9ddd90d"
-					(reference "R16")
+					(reference "R19")
 					(unit 1)
 				)
 			)
