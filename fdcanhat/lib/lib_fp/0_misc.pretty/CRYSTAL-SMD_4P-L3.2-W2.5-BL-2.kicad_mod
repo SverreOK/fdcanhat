@@ -116,7 +116,7 @@
 		(uuid "ed772df2-8aa5-42f4-a930-00841f4a9088")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CRYSTAL-SMD_4P-L3.2-W2.5-BL-2.wrl"
+	(model "${KIPRJMOD}/lib/3d_models/CRYSTAL-SMD_4P-L3.2-W2.5-BL-2.step"
 		(offset
 			(xyz -0 0 -0)
 		)
