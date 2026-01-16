@@ -1409,6 +1409,10 @@
 		(uuid "2f60f1ee-a0ff-4f12-b24d-7ebff8056552")
 	)
 	(no_connect
+		(at 200.66 124.46)
+		(uuid "478c4e87-3ec9-498f-b0f9-260275409615")
+	)
+	(no_connect
 		(at 200.66 106.68)
 		(uuid "5442e76e-e449-4d48-8b1c-30a7d867f3bc")
 	)
@@ -1431,6 +1435,10 @@
 	(no_connect
 		(at 200.66 111.76)
 		(uuid "afc4937b-3f52-4c7e-8ac7-3c5a1136ea3f")
+	)
+	(no_connect
+		(at 200.66 121.92)
+		(uuid "c510943d-fa65-4a0c-aa8e-3344123289b6")
 	)
 	(no_connect
 		(at 200.66 137.16)
@@ -2409,7 +2417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00e0a453-f735-4162-9004-a6fdb73ad67b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 120.65 151.13 0)
 			(effects
 				(font
@@ -2460,7 +2468,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2476,7 +2484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cbf1b6c-94e1-45ea-a69b-670754d25b2d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 121.92 128.27 0)
 			(effects
 				(font
@@ -2526,7 +2534,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2579,6 +2587,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05 with mounting pin"
+			(at 114.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C189896"
 			(at 114.3 130.81 0)
 			(effects
 				(font
@@ -2693,7 +2710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84f7133f-bada-4bf5-9332-1ac41b9d9a92")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 113.03 151.13 0)
 			(effects
 				(font
@@ -2744,7 +2761,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3088,7 +3105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9f23493-16f3-43e6-8f46-a655b36e2760")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 224.79 156.21 0)
 			(effects
 				(font
@@ -3139,7 +3156,7 @@
 		(instances
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

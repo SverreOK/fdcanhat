@@ -1164,7 +1164,7 @@
 		)
 		(uuid "5dee66ab-92c0-4b54-8fa2-6756f2bf5480")
 	)
-	(text_box "DESIGN:\nHAT+ specs specifies 5.1 V\n\n119K and 22k1 gives 5.11 V"
+	(text_box "DESIGN:\nHAT+ specs specifies 5.1 V\n\n53k6 and 10k gives 5.11 V"
 		(exclude_from_sim no)
 		(at 140.97 73.66 0)
 		(size 26.67 7.62)

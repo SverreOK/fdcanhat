@@ -1288,6 +1288,28 @@
 		)
 		(uuid "26096aa6-41a6-49bd-907f-895aa3b622e4")
 	)
+	(text_box "DESIGN:\nV_SENSE @ 5A = 50 mV\nVOUT = 20 * 0.05 = 1.0 V"
+		(exclude_from_sim no)
+		(at 236.22 121.92 0)
+		(size 25.4 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3048)
+			(type solid)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "96283723-d8c2-4a93-9223-380eb83f53ea")
+	)
 	(junction
 		(at 195.58 83.82)
 		(diameter 0)
