@@ -1384,7 +1384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u 50V X5R"
+		(property "Value" "1u 25V X7R"
 			(at 97.79 63.5 0)
 			(effects
 				(font
@@ -1393,7 +1393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0603_1608Metric"
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
 			(at 98.7552 64.77 0)
 			(effects
 				(font
@@ -1420,7 +1420,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C52923"
 			(at 97.79 60.96 0)
 			(effects
 				(font

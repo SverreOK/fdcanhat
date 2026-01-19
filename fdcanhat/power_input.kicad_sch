@@ -1371,12 +1371,6 @@
 		(uuid "baf309af-8562-4d90-b7bf-009a55bc551c")
 	)
 	(junction
-		(at 229.87 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c02aabe2-e6e6-4adc-9402-99288374253d")
-	)
-	(junction
 		(at 204.47 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1520,7 +1514,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 114.3) (xy 229.87 114.3)
+			(xy 227.33 114.3) (xy 240.03 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1587,16 +1581,6 @@
 			(type default)
 		)
 		(uuid "5ca00fa8-85f7-4092-97e8-a35e28f7eec2")
-	)
-	(wire
-		(pts
-			(xy 229.87 114.3) (xy 240.03 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6995bae7-ce34-4edc-8f43-f56a9c70f059")
 	)
 	(wire
 		(pts
@@ -1667,16 +1651,6 @@
 			(type default)
 		)
 		(uuid "8b5e5f87-3037-4706-9a0d-c1ca22764598")
-	)
-	(wire
-		(pts
-			(xy 229.87 121.92) (xy 229.87 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9948765d-a109-4cd7-b298-5ddee2eb18f8")
 	)
 	(wire
 		(pts
@@ -2550,94 +2524,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 229.87 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79516d5f-cff2-4593-a297-7c41752d2f05")
-		(property "Reference" "C5"
-			(at 233.68 117.4749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n 50V X7R"
-			(at 233.68 119.38 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
-			(at 230.8352 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 229.87 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 229.87 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" ""
-			(at 229.87 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eddaeb50-d4b3-48c2-b604-bd7c38f1238e")
-		)
-		(pin "2"
-			(uuid "c03f5b9c-9946-4326-9cd9-b9da5a234741")
-		)
-		(instances
-			(project "fdcanhat"
-				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/941260c8-26ec-48be-94c9-c4722689d865"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_power:INA180")
 		(at 217.17 111.76 0)
 		(unit 1)
@@ -3233,73 +3119,6 @@
 			(project "fdcanhat"
 				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/941260c8-26ec-48be-94c9-c4722689d865"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 229.87 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd731409-a0de-4693-9def-d5965122c5ae")
-		(property "Reference" "#PWR019"
-			(at 229.87 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 229.87 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fc5154c-67cf-4198-93e0-731f40004872")
-		)
-		(instances
-			(project "fdcanhat"
-				(path "/4375c315-c696-43df-ab5b-868bd3f1287b/941260c8-26ec-48be-94c9-c4722689d865"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
