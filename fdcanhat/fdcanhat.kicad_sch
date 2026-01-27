@@ -5,6 +5,7 @@
 	(uuid "4375c315-c696-43df-ab5b-868bd3f1287b")
 	(paper "A4")
 	(title_block
+		(title "Main")
 		(date "2026-01-07")
 		(rev "1.0")
 		(company "Hoppen")
@@ -388,14 +389,14 @@
 				(pin bidirectional line
 					(at -33.02 22.86 0)
 					(length 2.54)
-					(name "GPIO26/SDIO_DAT2"
+					(name "GPIO20/SPI1_MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "37"
+					(number "38"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -728,24 +729,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 -38.1 0)
-					(length 2.54)
-					(name "GPIO20/SPI1_MOSI/PCM_DIN/PWM1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -33.02 -40.64 0)
 					(length 2.54)
 					(name "GPIO21/SPI1_SCLK/PCM_DOUT"
@@ -837,6 +820,24 @@
 				)
 				(pin bidirectional line
 					(at -33.02 -55.88 0)
+					(length 2.54)
+					(name "GPIO26/SDIO_DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -58.42 0)
 					(length 2.54)
 					(name "GPIO27/SDIO_DAT3"
 						(effects
@@ -1421,12 +1422,12 @@
 		(uuid "572e09b1-191e-4acd-a7d3-205622d1c11b")
 	)
 	(no_connect
-		(at 200.66 114.3)
-		(uuid "6c3f5d31-326d-427d-865e-902263f3233f")
-	)
-	(no_connect
 		(at 229.87 48.26)
 		(uuid "6fab3a57-3950-45db-a061-f2bebcb96561")
+	)
+	(no_connect
+		(at 200.66 134.62)
+		(uuid "8e3f75de-3bd2-4d90-bcdc-ec4b3378607e")
 	)
 	(no_connect
 		(at 200.66 55.88)

@@ -2126,14 +2126,14 @@
 			(pin bidirectional line
 				(at -33.02 22.86 0)
 				(length 2.54)
-				(name "GPIO26/SDIO_DAT2"
+				(name "GPIO20/SPI1_MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "37"
+				(number "38"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2466,24 +2466,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 -38.1 0)
-				(length 2.54)
-				(name "GPIO20/SPI1_MOSI/PCM_DIN/PWM1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at -33.02 -40.64 0)
 				(length 2.54)
 				(name "GPIO21/SPI1_SCLK/PCM_DOUT"
@@ -2575,6 +2557,24 @@
 			)
 			(pin bidirectional line
 				(at -33.02 -55.88 0)
+				(length 2.54)
+				(name "GPIO26/SDIO_DAT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -58.42 0)
 				(length 2.54)
 				(name "GPIO27/SDIO_DAT3"
 					(effects
